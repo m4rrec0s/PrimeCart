@@ -1,7 +1,3 @@
-Claro, aqui está uma descrição rápida para o repositório do seu site no GitHub, considerando o nome "PrimeCart":
-
----
-
 ## PrimeCart
 
 PrimeCart é um projeto de site de vendas inspirado em plataformas renomadas como Amazon e Mercado Livre. O site oferece uma experiência de compra completa para usuários, incluindo a visualização de produtos, carrinho de compras, login de usuário e muito mais. Além disso, fornece uma plataforma dedicada para vendedores e comerciantes adicionarem e gerenciarem seus produtos de forma eficiente.
