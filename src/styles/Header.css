@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #021A32;
+}
+
+.content-top {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 269px;
+    height: 69px;
+    background: url('../assets/logo-edit.png') no-repeat center center;
+    background-size: 80%;
+}
