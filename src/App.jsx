@@ -1,13 +1,13 @@
 import './styles/App.css'
 import Header from './components/header'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Banner from './components/banner'
 
 function App() {
 
   return (
     <>
       <Header></Header>
-      <FontAwesomeIcon icon="fa-solid github" size='40px' color='black'/>
+      <Banner></Banner>
     </>
   )
 }

@@ -51,6 +51,7 @@
 .right-content {
     display: flex;
     gap: 10px;
+    width: 100px;
 }
 
 .cart, .user-botton {
@@ -103,14 +104,13 @@
 .content-bottom {
     position: absolute;
     top: 45px;
-
+    justify-content: space-between;
     width: 100%;
     max-width: 1000px;
     height: 65px;
     padding: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .location {
@@ -119,6 +119,8 @@
     outline: none;
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    padding: 1px;
 }
 
 .location > div {
@@ -139,7 +141,9 @@
 .nav-buttons {
     display: flex;
     align-items: end;
-    gap: 25px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
     height: 100%;
     margin-bottom: 20px;
 }
@@ -147,4 +151,5 @@
 .nav-buttons > a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }

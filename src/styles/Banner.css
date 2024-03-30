@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+}
+
+.banner > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.pascoa-banner {
+    background: url('../assets/banners/pascoa-banner.jpg') no-repeat center top;
+    background-size: contain;
+}

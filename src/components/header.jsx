@@ -69,15 +69,15 @@ function Header() {
                 </button>
                 <div className="nav-buttons">
                     <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
-                    <a href="#">Categorias</a>
+                    <a href="#">Ofertas</a>
+                    <a href="#">Histórico</a>
+                    <a href="#">Supermercado</a>
+                    <a href="#">Moda</a>
+                    <a href="#">Mercado Play</a>
+                    <a href="#">Vender</a>
+                    <a href="#">Contato</a>
                 </div>
-
+                <div className="right-content"></div>
             </div>
         </div>
     )
