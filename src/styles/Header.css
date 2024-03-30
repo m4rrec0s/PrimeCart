@@ -1,23 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 10px;
     width: 100%;
-    height: 100px;
+    height: 105px;
     background-color: #021A32;
 }
 
 .content-top {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    z-index: 2;
+}
+
+.button-search {
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+    border-left: 2px solid rgba(44, 44, 44, 0.397);
+}
+
+.button-search:hover {
+    background-color: #d3d3d3;
 }
 
 .icon {
-    width: 269px;
-    height: 69px;
+    width: 134px;
+    height: 34px;
     background: url('../assets/logo-edit.png') no-repeat center center;
-    background-size: 80%;
+    background-size: 100%;
+}
+
+.right-content {
+    display: flex;
+    gap: 10px;
+}
+
+.cart, .user-botton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff3b;
+    cursor: pointer;
+}
+
+.user-botton > button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.highlight {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px;
+}
+
+.cart:hover, .user-botton:hover {
+    background-color: #ffffff8f;
+}
+
+.cart:hover > .highlight {
+    color: #242424fb;
+}
+
+.user-botton button:hover > .highlight {
+    color: #242424fb;
+}
+
+.search {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.content-bottom {
+    position: absolute;
+    top: 45px;
+
+    width: 100%;
+    max-width: 1000px;
+    height: 65px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.location > div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 11px;
+    border: 1px solid transparent;
+}
+
+.location>div:hover {
+    border: 1px solid #fff;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: end;
+    gap: 25px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-buttons > a {
+    color: #fff;
+    text-decoration: none;
 }
