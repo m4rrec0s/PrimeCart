@@ -1,23 +1,20 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
 .banner {
-    width: 100%;
-    height: 500px;
-    cursor: pointer;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  transition: transform 0.5s ease-in-out;
 }
 
-.banner > a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-}
-
-.pascoa-banner {
-    background: url('../assets/banners/pascoa-banner.jpg') no-repeat center top;
-    background-size: contain;
+.banner > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }

@@ -40,7 +40,7 @@ function Header() {
                 <Search>
                     <StyledInputBase
                     placeholder="search for products, brands and more..."
-                    inputProps={{ 'Helvetica': 'search' }}
+                    inputProps={{ 'sans-serif': 'search' }}
                     />
                     <button className='button-search'>
                         <FontAwesomeIcon icon={faMagnifyingGlass} className='search'/>

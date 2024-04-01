@@ -16,7 +16,7 @@
 
 .content-top {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -106,7 +106,7 @@
     top: 45px;
     justify-content: space-between;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     height: 65px;
     padding: 5px;
     display: flex;

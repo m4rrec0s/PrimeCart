@@ -1,13 +1,15 @@
 import './styles/App.css'
 import Header from './components/header'
-import Banner from './components/banner'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
       <Header></Header>
-      <Banner></Banner>
+      <div className='container-center'>
+        <Home />
+      </div>
     </>
   )
 }
