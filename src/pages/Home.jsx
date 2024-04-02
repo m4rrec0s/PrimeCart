@@ -6,41 +6,76 @@ function Home() {
         <>
             <div className="container-center">
                 <Banner />
-                <div className="content-center">
-                    <div className="gradient"></div>
-                    <section>
-                        <div className="recents">
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
+                <div className="content">
+                    <div className="center">
+                        <section id="part-1">
+                            <div className="recents">
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
+                                <div className="iten">
+                                    <h3>Visto recentemente</h3>
+                                </div>
                             </div>
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
+                            <div className="inspired">
+                                <h2>Inspirado no último visto</h2>
+                                <div className="box-products">
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                    <div className="product">
+                                        <span>
+                                            <p>Product description</p>
+                                        </span>
+                                        <h3>R$ 9,99</h3>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
-                            </div>
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
-                            </div>
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
-                            </div>
-                            <div className="iten">
-                                <h3>Visto recentemente</h3>
-                            </div>
-                        </div>
-                        <div className="inspired">
-                            <h2>Inspirado no último visto</h2>
-                            <div className="box-products">
-                                <div className="product"></div>
-                                <div className="product"></div>
-                                <div className="product"></div>
-                                <div className="product"></div>
-                                <div className="product"></div>
-                                <div className="product"></div>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
+                        <section id="part-2">
+                            <div className="recents"></div>
+                        </section>
+                    </div>
+
                 </div>
             </div>
         </>
