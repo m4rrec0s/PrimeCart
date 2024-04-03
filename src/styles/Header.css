@@ -10,6 +10,7 @@
     flex-direction: column;
     padding: 10px;
     width: 100%;
+    min-width: 900px;
     height: 105px;
     background-color: #021A32;
 }
@@ -104,13 +105,13 @@
 .content-bottom {
     position: absolute;
     top: 45px;
-    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
     height: 65px;
     padding: 5px;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .location {
@@ -124,6 +125,7 @@
 }
 
 .location > div {
+    width: 200px;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -132,6 +134,7 @@
     border-radius: 10px;
     font-size: 11px;
     border: 1px solid transparent;
+    margin-right: 100px;
 }
 
 .location>div:hover {
@@ -140,16 +143,22 @@
 
 .nav-buttons {
     display: flex;
-    align-items: end;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 600px;
+    align-items: flex-end;
+    width: 650px;
     height: 100%;
     margin-bottom: 20px;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .nav-buttons > a {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        width: 900px;
+    }
 }

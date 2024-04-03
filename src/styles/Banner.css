@@ -4,6 +4,7 @@
 
 .banner {
   width: 100%;
+  min-width: 900px;
   height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
