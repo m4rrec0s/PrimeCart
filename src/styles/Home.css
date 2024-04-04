@@ -6,8 +6,9 @@
 
 .content {
     position: absolute;
-    top: 500px;
+    top: 480px;
     width: 100%;
+    z-index: 2;
 }
 
 .center {
@@ -38,11 +39,72 @@ section {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.123);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.iten:hover > h3 {
+    color: rgb(0, 161, 161);
+}
+
+.product {
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product:hover > h3 {
+    color: rgb(0, 161, 161);
 }
 
 .iten > h3 {
     font-size: 0.9em;
     font-weight: 500;
+    max-height: 2.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+}
+
+.product > h3 {
+    font-size: 0.9em;
+    font-weight: 500;
+    max-height: 2.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+}
+
+.iten > .picture {
+    height: 105px;
+    margin: 0 auto;
+    width: 105px;
+}
+
+.iten > .picture > img {
+    width: 100%;
+    height: 100%;
+}
+
+.product > .picture {
+    height: 105px;
+    margin: 0 auto;
+    width: 105px;
+}
+
+.product > .picture > img {
+    width: 100%;
+    height: 100%;
 }
 
 .inspired {
@@ -64,16 +126,10 @@ section {
     gap: 10px;
 }
 
-.product {
-    width: 100%;
-    height: 280px;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.product > span > p {
-    font-size: 0.9rem;
+@media only screen and (max-width: 1600px) {
+    .content {
+        top: 350px;
+    }
 }
 
 @media only screen and (max-width: 910px) {

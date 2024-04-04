@@ -1,99 +1,48 @@
-import { useState, useEffect } from 'react';
 import Banner from "../components/banner";
+import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import '../styles/Home.css'
+import productsData from '../json/products.json'
 
 function Home() {
-    const [gradientTop, setGradientTop] = useState(130);
+    const [produtos, setProdutos] = useState([]);
 
     useEffect(() => {
-        const handleResize = () => {
-            const windowWidth = window.innerWidth;
-            let gradientTopValue;
-
-            if (windowWidth <= 1130) {
-                gradientTopValue = 300;
-            } else {
-                gradientTopValue = Math.max(0, windowWidth - 725) * 0.30 + 130;
-            }
-    
-            setGradientTop(gradientTopValue);
-        };
-    
-        window.addEventListener('resize', handleResize);
-  
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-        }, []
-    );
+        setProdutos(productsData);
+    }, []);
 
     return (
 
         <>
             <div className="container-center">
                 <Banner />
-                <div className="content" style={{ top: gradientTop }}>
+                <div className="content">
                     <div className="center">
                         <section id="part-1">
                             <div className="recents">
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
-                                <div className="iten">
-                                    <h3>Visto recentemente</h3>
-                                </div>
+                                {produtos.slice(0, 6).map(produto => (
+                                    <Link key={produto.id} to={`/page-product/${produto.id}`} className="iten">
+                                        {/* Renderize o conteúdo da div como um Link para a página do produto */}
+                                        <h3 className="truncate-text">{produto.nome}</h3>
+                                        <img src={produto.imagem} alt={produto.nome} />
+                                        <p>{produto.descricao}</p>
+                                        <h4>R$ {produto.preco.toFixed(2)}</h4>
+                                    </Link>
+                                ))}
                             </div>
+
                             <div className="inspired">
                                 <h2>Inspirado no último visto</h2>
                                 <div className="box-products">
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
-                                    <div className="product">
-                                        <span>
-                                            <p>Product description</p>
-                                        </span>
-                                        <h3>R$ 9,99</h3>
-                                    </div>
+                                    {produtos.slice(6).map(produto => (
+                                        <Link key={produto.id} to={`/page-product/${produto.id}`} className="product">
+                                            {/* Renderize o conteúdo da div como um Link para a página do produto */}
+                                            <h3 className="truncate-text">{produto.nome}</h3>
+                                            <img src={produto.imagem} alt={produto.nome} />
+                                            <p>{produto.descricao}</p>
+                                            <h4>R$ {produto.preco.toFixed(2)}</h4>
+                                        </Link>
+                                    ))}
                                 </div>
                             </div>
                         </section>

@@ -14,7 +14,6 @@ const banners = [
 
 function Banner() {
     const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
-    const [gradientTop, setGradientTop] = useState(130);
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -26,28 +25,12 @@ function Banner() {
       return () => clearInterval(interval);
     }, []);
 
-    useEffect(() => {
-      const handleResize = () => {
-          const windowWidth = window.innerWidth;
-          const gradientTopValue = Math.max(0, windowWidth - 725) * 0.222 + 130;
-          setGradientTop(gradientTopValue);
-      };
-
-      window.addEventListener('resize', handleResize);
-      handleResize();
-
-      return () => {
-          window.removeEventListener('resize', handleResize);
-      };
-      }, []
-    );
-
     return (
         <div className="banner-container">
             <div className="banner" style={{ backgroundImage: `url(${banners[currentBannerIndex]})`}}>
                 <a href="#"></a>
             </div>
-            <div className="gradient" style={{ top: gradientTop }}></div>
+            <div className="gradient"></div>
         </div>
     );
 }
