@@ -1,12 +1,10 @@
 import './styles/App.css'
-import Header from './components/header'
-import Home from './pages/Home'
+import Home from './routes/Home'
 
 function App() {
 
   return (
     <>
-      <Header></Header>
       <div className='container-center'>
         <Home />
       </div>

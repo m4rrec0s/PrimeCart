@@ -47,6 +47,7 @@
     height: 34px;
     background: url('../assets/logo-edit.png') no-repeat center center;
     background-size: 100%;
+    text-decoration: none;
 }
 
 .right-content {

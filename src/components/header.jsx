@@ -3,6 +3,7 @@ import InputBase from '@mui/material/InputBase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping, faMagnifyingGlass, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Header.css'
+import { Link } from 'react-router-dom';
 
 const user = "User"
 
@@ -36,7 +37,7 @@ function Header() {
     return(
         <div className="header">
             <div className="content-top">
-                <div className="icon"></div>
+                <Link to="/" className="icon"></Link>
                 <Search>
                     <StyledInputBase
                     placeholder="search for products, brands and more..."
@@ -68,14 +69,14 @@ function Header() {
                     </div>
                 </button>
                 <div className="nav-buttons">
-                    <a href="#">Categorias</a>
-                    <a href="#">Ofertas</a>
-                    <a href="#">Histórico</a>
-                    <a href="#">Supermercado</a>
-                    <a href="#">Moda</a>
-                    <a href="#">Mercado Play</a>
-                    <a href="#">Vender</a>
-                    <a href="#">Contato</a>
+                    <Link to="/">Categorias</Link>
+                    <Link to="/">Ofertas</Link>
+                    <Link to="/">Histórico</Link>
+                    <Link to="/">Supermercado</Link>
+                    <Link to="/">Moda</Link>
+                    <Link to="/">Mercado Play</Link>
+                    <Link to="/">Vender</Link>
+                    <Link to="/contact">Contato</Link>
                 </div>
                 <div className="right-content"></div>
             </div>

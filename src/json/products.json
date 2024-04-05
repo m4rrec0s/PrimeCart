@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "0001",
         "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
         "descricao": "...",
@@ -10,7 +10,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 2,
+        "id": "0002",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -19,17 +19,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0003",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -38,17 +28,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0004",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -57,17 +37,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0005",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -76,17 +46,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0006",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -95,17 +55,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0007",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -114,17 +64,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0008",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -133,17 +73,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0009",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -152,17 +82,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
+        "id": "0010",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -171,17 +91,25 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
+        "id": "0011",
+        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
+        "preco": 199.99,
+        "parcelado": false,
         "categoria": "cat-gamer"
     },
     {
-        "id": 2,
+        "id": "0012",
+        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
+        "descricao": "...",
+        "preco": 199.99,
+        "parcelado": false,
+        "categoria": "cat-gamer"
+    },
+    {
+        "id": "0013",
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
