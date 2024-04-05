@@ -1,6 +1,6 @@
 [
     {
-        "id": "0001",
+        "id": 1,
         "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
         "descricao": "...",
@@ -10,7 +10,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0002",
+        "id": 2,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -19,7 +19,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0003",
+        "id": 3,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -28,7 +28,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0004",
+        "id": 4,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -37,7 +37,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0005",
+        "id": 5,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -46,7 +46,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0006",
+        "id": 6,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -55,7 +55,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0007",
+        "id": 7,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -64,7 +64,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0008",
+        "id": 8,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -73,7 +73,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0009",
+        "id": 9,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -82,7 +82,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0010",
+        "id": 10,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -91,7 +91,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0011",
+        "id": 11,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -100,7 +100,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0012",
+        "id": 12,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",
@@ -109,7 +109,7 @@
         "categoria": "cat-gamer"
     },
     {
-        "id": "0013",
+        "id": 13,
         "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
         "descricao": "...",

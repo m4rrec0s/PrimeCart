@@ -1,13 +1,13 @@
 import './styles/App.css'
-import Home from './routes/Home'
+import { Outlet } from 'react-router-dom'
+import Header from './components/header'
 
 function App() {
 
   return (
     <>
-      <div className='container-center'>
-        <Home />
-      </div>
+      <Header />
+      <Outlet />
     </>
   )
 }

@@ -1,5 +1,3 @@
-import { styled } from '@mui/material/styles';
-import InputBase from '@mui/material/InputBase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping, faMagnifyingGlass, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Header.css'
@@ -7,46 +5,18 @@ import { Link } from 'react-router-dom';
 
 const user = "User"
 
-const Search = styled('div')(({ theme }) => ({
-    position: 'relative',
-    borderRadius: theme,
-    backgroundColor: '#fff',
-    border: '1px solid 021A32',
-    marginLeft: 0,
-    width: '100%',
-    maxWidth: '600px',
-    height: '40px',
-    '&:focus': {
-        border: '3px solid #2870EA',
-        fontWeight: 400,
-    },
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-    color: 'inherit',
-    width: '100%',
-    fontSize: '15px',
-    '& .MuiInputBase-input': {
-        padding: theme.spacing(1, 1, 1, 0),
-        paddingLeft: `calc(1em + ${theme.spacing(1)})`,
-    },
-}));
-
 function Header() {
 
     return(
         <div className="header">
             <div className="content-top">
                 <Link to="/" className="icon"></Link>
-                <Search>
-                    <StyledInputBase
-                    placeholder="search for products, brands and more..."
-                    inputProps={{ 'sans-serif': 'search' }}
-                    />
+                <div className="search-container">
+                    <input type="search" name='search' className='input-search' placeholder='search for products, brands and more...' />
                     <button className='button-search'>
                         <FontAwesomeIcon icon={faMagnifyingGlass} className='search'/>
                     </button>
-                </Search>
+                </div>
                 <div className="right-content">
                     <div className='cart'>
                         <FontAwesomeIcon icon={faCartShopping} className="highlight"/>
@@ -78,7 +48,10 @@ function Header() {
                     <Link to="/">Vender</Link>
                     <Link to="/contact">Contato</Link>
                 </div>
-                <div className="right-content"></div>
+                <div className="right-content">
+                    <Link to='/'>Sobre</Link>
+                    <Link to='/'>Mais</Link>
+                </div>
             </div>
         </div>
     )

@@ -2,7 +2,6 @@ import Banner from "../components/banner";
 import { useState, useEffect } from "react";
 import '../styles/Home.css'
 import productsData from '../json/products.json'
-import Header from '../components/header'
 
 function Home() {
     const [produtos, setProdutos] = useState([]);
@@ -14,7 +13,6 @@ function Home() {
     return (
 
         <>
-            <Header></Header>
             <div className="container-center">
                 <Banner />
                 <div className="content">
