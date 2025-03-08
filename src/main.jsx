@@ -1,13 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './styles/index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/index.css";
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from './App.jsx'
-import Home from './routes/Home.jsx'
-import Contact from './routes/Contact.jsx'
-import ErrorPage from './routes/ErrorPage.jsx'
+import App from "./App.jsx";
+import Home from "./routes/Home.jsx";
+import Contact from "./routes/Contact.jsx";
+import ErrorPage from "./routes/ErrorPage.jsx";
+import ProductPage from "./routes/products/productPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,18 +18,22 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "contact",
-        element: <Contact />
-      }
-    ]
-  }
-])
+        element: <Contact />,
+      },
+      {
+        path: "products/:id",
+        element: <ProductPage />,
+      },
+    ],
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

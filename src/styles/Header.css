@@ -10,9 +10,10 @@
     flex-direction: column;
     padding: 10px;
     width: 100%;
-    min-width: 900px;
-    height: 105px;
+    height: auto;
+    min-height: 105px;
     background-color: #021A32;
+    position: relative;
 }
 
 .content-top {
@@ -28,9 +29,13 @@
     width: 100%;
     max-width: 650px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
 }
 
-.search-container > .input-search {
+.search-container>.input-search {
     width: 100%;
     max-width: 610px;
     padding: 12px 20px;
@@ -38,18 +43,15 @@
     border: 3px solid #021A32;
 }
 
-.search-container > .input-search:focus {
+.search-container>.input-search:focus {
     border: 3px solid #00a1a1;
 }
 
 .button-search {
-    padding: 20px;
-    width: 42px;
-    height: 35px;
-    position: absolute;
-    top: 13px;
+    height: 100%;
+    padding: 12px 20px;
+    border: 3px solid #021A32;
     outline: none;
-    border: none;
     background-color: #fff;
     cursor: pointer;
 }
@@ -73,7 +75,8 @@
     margin-left: 20px;
 }
 
-.cart, .user-botton {
+.cart,
+.user-botton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +87,7 @@
     cursor: pointer;
 }
 
-.user-botton > button {
+.user-botton>button {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -100,32 +103,30 @@
     padding: 10px;
 }
 
-.cart:hover, .user-botton:hover {
+.cart:hover,
+.user-botton:hover {
     background-color: #ffffff8f;
 }
 
-.cart:hover > .highlight {
+.cart:hover>.highlight {
     color: #242424fb;
 }
 
-.user-botton button:hover > .highlight {
+.user-botton button:hover>.highlight {
     color: #242424fb;
 }
 
 .search {
     color: black;
     font-size: 20px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    z-index: 2;
 }
 
 .content-bottom {
-    position: absolute;
-    top: 45px;
+    position: relative;
     width: 100%;
     max-width: 1200px;
-    height: 65px;
+    min-height: 65px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -143,7 +144,7 @@
     padding: 1px;
 }
 
-.location > div {
+.location>div {
     width: 200px;
     display: flex;
     align-items: center;
@@ -169,18 +170,148 @@
     gap: 30px;
 }
 
-.nav-buttons > a {
+.nav-buttons>a {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
 }
 
-@media only screen and (max-width: 900px) {
-    .header {
-        width: 900px;
+.mobile-menu-toggle {
+    display: none;
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-buttons {
+        width: auto;
+        gap: 15px;
+    }
+
+    .content-bottom .right-content {
+        width: auto;
     }
 }
 
 @media only screen and (max-width: 900px) {
+    .content-top {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        gap: 10px;
+    }
 
+    .search-container {
+        order: 3;
+        width: 100%;
+    }
+
+    .icon {
+        order: 1;
+    }
+
+    .content-top .right-content {
+        order: 2;
+    }
+
+    .content-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-buttons {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-menu-toggle {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+
+    .content-bottom {
+        display: none;
+    }
+
+    .header.menu-open .content-bottom {
+        display: flex;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background-color: #021A32;
+        z-index: 10;
+        padding: 10px;
+    }
+
+    .content-bottom .right-content {
+        width: 100%;
+        margin-left: 0;
+        justify-content: space-around;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .location>div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        min-height: 85px;
+        padding: 5px;
+    }
+
+    .search-container {
+        flex-direction: row;
+    }
+
+    .search-container>.input-search {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .button-search {
+        padding: 8px 12px;
+    }
+
+    .icon {
+        width: 100px;
+        height: 25px;
+    }
+
+    .right-content {
+        margin-left: 10px;
+    }
+
+    .cart,
+    .user-botton {
+        width: 30px;
+        height: 30px;
+    }
+
+    .highlight {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .nav-buttons>a {
+        font-size: 11px;
+    }
 }

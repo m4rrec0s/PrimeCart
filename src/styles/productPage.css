@@ -1,0 +1,22 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-page {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product-page {
+        padding: 5px;
+    }
+}

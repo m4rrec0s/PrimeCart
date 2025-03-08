@@ -21,19 +21,41 @@
 section {
     width: 100%;
     max-width: 1200px;
-    min-width: 900px;
     padding: 0 10px;
 }
 
+
+.container-recents {
+    padding: 10px;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+.container-recents::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
 .recents {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin-bottom: 40px;
+    display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.product {
+    text-decoration: none;
+    color: #000;
+    width: fit-content;
+    height: fit-content;
 }
 
 .iten {
-    width: 100%;
+    width: 200px;
     height: 280px;
     background-color: #fff;
     padding: 10px;
@@ -46,28 +68,11 @@ section {
     cursor: pointer;
 }
 
-.iten:hover > h3 {
+.iten:hover>h3 {
     color: rgb(0, 161, 161);
 }
 
-.product {
-    width: 100%;
-    height: 280px;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.product:hover > h3 {
-    color: rgb(0, 161, 161);
-}
-
-.iten > h3 {
+.iten>h3 {
     font-size: 0.9em;
     font-weight: 500;
     max-height: 2.9em;
@@ -76,33 +81,14 @@ section {
     white-space: wrap;
 }
 
-.product > h3 {
-    font-size: 0.9em;
-    font-weight: 500;
-    max-height: 2.9em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: wrap;
-}
 
-.iten > .picture {
+.iten>.picture {
     height: 105px;
     margin: 0 auto;
     width: 105px;
 }
 
-.iten > .picture > img {
-    width: 100%;
-    height: 100%;
-}
-
-.product > .picture {
-    height: 105px;
-    margin: 0 auto;
-    width: 105px;
-}
-
-.product > .picture > img {
+.iten>.picture>img {
     width: 100%;
     height: 100%;
 }
@@ -113,7 +99,7 @@ section {
     border-radius: 10px;
 }
 
-.inspired > h2 {
+.inspired>h2 {
     font-size: 1.25em;
     margin-left: 20px;
     font-weight: 600;
@@ -121,7 +107,7 @@ section {
 
 .box-products {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     margin-bottom: 40px;
     gap: 10px;
 }
@@ -136,5 +122,38 @@ section {
     .center {
         align-items: flex-start;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        top: 350px;
+    }
+
+    .iten,
+    .product {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        top: 300px;
+        padding: 0 5px;
+    }
+
+    .recents,
+    .box-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .iten,
+    .product {
+        height: 220px;
+    }
+
+    .inspired>h2 {
+        font-size: 1.1em;
+        margin-left: 10px;
     }
 }

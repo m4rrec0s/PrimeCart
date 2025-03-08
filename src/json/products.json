@@ -1,120 +1,23 @@
 [
-    {
-        "id": 1,
-        "nome": "Headset Gamer Para Consoles E Pc Driver 40mm Harman JBL Quantum 100 Preto Jbl",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_860134-MLU72491709778_102023-O.webp",
-        "descricao": "...",
-        "preco": 140.40,
-        "parcelado": true,
-        "parcelas": 3,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 2,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 3,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 4,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 5,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 6,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 7,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 8,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 9,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 10,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 11,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 12,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    },
-    {
-        "id": 13,
-        "nome": "Headset Gamer Havit Gamenote H2002d Mic Removível Branco",
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_776579-MLU74970808227_032024-O.webp",
-        "descricao": "...",
-        "preco": 199.99,
-        "parcelado": false,
-        "categoria": "cat-gamer"
-    }
+  {
+    "id": "1",
+    "name": "Smartphone XYZ",
+    "description": "Um smartphone de última geração com 128GB de armazenamento",
+    "price": 1999.99,
+    "image": "https://i.pinimg.com/736x/66/c2/3f/66c23f9566266ec63f39b2dac1a56585.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Notebook ABC",
+    "description": "Notebook leve e potente para produtividade",
+    "price": 3499.99,
+    "image": "https://i.pinimg.com/736x/a1/dc/bc/a1dcbcbaab6f56f20d026b088b8c69c5.jpg"
+  },
+  {
+    "id": "3",
+    "name": "SmartTV 4K",
+    "description": "TV 4K de 55 polegadas com tecnologia LED",
+    "price": 2699.99,
+    "image": "https://i.pinimg.com/736x/88/1d/0e/881d0e5d36a2316a20fe1ace735a9b48.jpg"
+  }
 ]

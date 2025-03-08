@@ -1,0 +1,48 @@
+.header-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+/* Estilos globais responsivos */
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Ajustes de espaçamento para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .header-fixed {
+        position: sticky;
+    }
+
+    body {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container-fluid {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
